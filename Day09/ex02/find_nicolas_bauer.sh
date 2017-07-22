@@ -1,0 +1,1 @@
+grep -i "bauer" | grep -i "nicolas" | grep -v "nicolasbauer" | grep -v "bauernicolas" | grep '\(([0-9]\{3\})\[0-9]\{3\}\)[ -]\?[0-9]\{4\}'
